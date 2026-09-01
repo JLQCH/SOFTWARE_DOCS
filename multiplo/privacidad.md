@@ -49,25 +49,30 @@ notificación **local**: la programa tu propio dispositivo a la hora que
 elijas. No hay servidor de notificaciones ni se registra ningún
 identificador.
 
-### 5. Publicidad (versión gratuita)
+### 5. Publicidad
 
-La versión gratuita de Múltiplo muestra anuncios de **Google AdMob**. Para
-mostrarlos, Google puede tratar identificadores de tu dispositivo y datos
-sobre tu interacción con los anuncios. Antes de cargar ningún anuncio, la app
-te pregunta si aceptas anuncios **personalizados** o prefieres solo anuncios
-**no personalizados**, y puedes cambiar esa elección cuando quieras en
-Ajustes → Anuncios y privacidad.
+**La versión actual de Múltiplo no muestra ningún anuncio** y no incorpora
+ningún SDK de publicidad.
 
-El tratamiento que hace Google se rige por su propia política de privacidad:
-https://policies.google.com/privacy
+Está previsto que una versión futura incluya anuncios de **Google AdMob** en
+la modalidad gratuita. Cuando eso ocurra:
 
-**Si compras la app, la publicidad desaparece de forma permanente** y no se
-carga ningún SDK de anuncios.
+- La app te preguntará **antes de cargar ningún anuncio** si aceptas anuncios
+  **personalizados** o prefieres solo anuncios **no personalizados**, y podrás
+  cambiar esa elección cuando quieras en Ajustes.
+- Para servirlos, Google podría tratar identificadores de tu dispositivo y
+  datos sobre tu interacción con los anuncios, conforme a su propia política
+  de privacidad: https://policies.google.com/privacy
+- Habrá una compra dentro de la app que **elimina la publicidad de forma
+  permanente**.
+- Esta política y las etiquetas de privacidad de la App Store se actualizarán
+  en esa misma versión.
 
 ### 6. Compras
 
-Las compras dentro de la app las gestiona Apple mediante App Store. No
-recibimos ni almacenamos tus datos de pago en ningún momento.
+La versión actual no ofrece compras dentro de la app. Si en el futuro las
+hubiera, las gestionaría Apple mediante App Store: no recibimos ni
+almacenamos tus datos de pago en ningún momento.
 
 ### 7. Lo que NO hacemos
 
@@ -94,8 +99,9 @@ ejercer tus derechos directamente:
 - **Acceso y rectificación**: todo lo guardado se ve y se edita en la app.
 - **Supresión**: borra el perfil desde Ajustes, o desinstala la app para
   eliminarlo todo.
-- **Oposición a la publicidad personalizada**: cambia tu elección en
-  Ajustes → Anuncios y privacidad, o compra la app para quitar los anuncios.
+- **Oposición a la publicidad personalizada**: hoy no hay anuncios que
+  rechazar. Cuando los haya, podrás cambiar tu elección en Ajustes o comprar
+  la app para eliminarlos.
 
 ### 10. Cambios en esta política
 
@@ -155,24 +161,29 @@ You can enable a daily reminder so you do not lose your streak. It is a
 **local** notification: your own device schedules it at the time you choose.
 There is no notification server and no identifier is registered.
 
-### 5. Advertising (free version)
+### 5. Advertising
 
-The free version of Múltiplo shows **Google AdMob** ads. To serve them,
-Google may process your device identifiers and data about your interaction
-with the ads. Before loading any ad, the app asks whether you accept
-**personalized** ads or prefer **non-personalized** ads only, and you can
-change that choice at any time in Settings → Ads & privacy.
+**The current version of Múltiplo shows no ads at all** and bundles no
+advertising SDK.
 
-Google's processing is governed by its own privacy policy:
-https://policies.google.com/privacy
+A future version is expected to include **Google AdMob** ads in the free
+tier. When that happens:
 
-**If you buy the app, advertising is removed permanently** and no ad SDK is
-loaded.
+- The app will ask you, **before loading any ad**, whether you accept
+  **personalized** ads or prefer **non-personalized** ads only, and you will
+  be able to change that choice at any time in Settings.
+- To serve them, Google may process your device identifiers and data about
+  your interaction with the ads, under its own privacy policy:
+  https://policies.google.com/privacy
+- An in-app purchase will **remove advertising permanently**.
+- This policy and the App Store privacy labels will be updated in that same
+  version.
 
 ### 6. Purchases
 
-In-app purchases are handled by Apple through the App Store. We never receive
-or store your payment details.
+The current version offers no in-app purchases. Should there be any in the
+future, they would be handled by Apple through the App Store: we never
+receive or store your payment details.
 
 ### 7. What we do NOT do
 
@@ -199,8 +210,9 @@ exercise your rights directly:
   the app.
 - **Erasure**: delete the profile from Settings, or uninstall the app to
   remove everything.
-- **Objection to personalized advertising**: change your choice in
-  Settings → Ads & privacy, or buy the app to remove ads.
+- **Objection to personalized advertising**: there are no ads to object to
+  today. When there are, you will be able to change your choice in Settings
+  or buy the app to remove them.
 
 ### 10. Changes to this policy
 

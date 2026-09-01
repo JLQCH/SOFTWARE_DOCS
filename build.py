@@ -173,36 +173,58 @@ def partir_idiomas(md):
     return subir(es), subir(en)
 
 
+PIE = ("Múltiplo · Jose Luis Querido Chica · "
+       '<a href="mailto:jlq.software@gmail.com">jlq.software@gmail.com</a>')
+
+# Cada documento: fuente, las dos paginas que produce y sus titulos.
+DOCUMENTOS = [
+    {
+        "fuente": "privacidad.md",
+        "es": ("privacidad.html", "Política de privacidad",
+               "Política de privacidad de Múltiplo. Tus datos de juego no salen del dispositivo."),
+        "en": ("privacy.html", "Privacy Policy",
+               "Privacy policy for Multiplo. Your game data never leaves your device."),
+    },
+    {
+        "fuente": "soporte.md",
+        "es": ("soporte.html", "Soporte",
+               "Ayuda y preguntas frecuentes de Múltiplo."),
+        "en": ("support.html", "Support",
+               "Help and frequently asked questions for Multiplo."),
+    },
+]
+
+
 def main():
-    md = (RAIZ / "multiplo" / "privacidad.md").read_text(encoding="utf-8")
-    es, en = partir_idiomas(md)
-
-    nav_es = ('<p class="idiomas"><strong>Español</strong> · '
-              '<a href="privacy.html">English</a></p>')
-    nav_en = ('<p class="idiomas"><a href="privacidad.html">Español</a> · '
-              '<strong>English</strong></p>')
-    pie_es = ("Múltiplo · Jose Luis Querido Chica · "
-              '<a href="mailto:jlq.software@gmail.com">jlq.software@gmail.com</a>')
-    pie_en = pie_es
-
-    (RAIZ / "multiplo" / "privacidad.html").write_text(PLANTILLA.format(
-        lang="es", titulo="Política de privacidad · Múltiplo",
-        desc="Política de privacidad de Múltiplo. Tus datos de juego no salen del dispositivo.",
-        sub="Política de privacidad", idiomas=nav_es,
-        cuerpo="<h1>Política de privacidad</h1>\n" + a_html(es), pie=pie_es),
-        encoding="utf-8")
-
-    (RAIZ / "multiplo" / "privacy.html").write_text(PLANTILLA.format(
-        lang="en", titulo="Privacy Policy · Múltiplo",
-        desc="Privacy policy for Multiplo. Your game data never leaves your device.",
-        sub="Privacy policy", idiomas=nav_en,
-        cuerpo="<h1>Privacy Policy</h1>\n" + a_html(en), pie=pie_en),
-        encoding="utf-8")
+    for doc in DOCUMENTOS:
+        md = (RAIZ / "multiplo" / doc["fuente"]).read_text(encoding="utf-8")
+        es, en = partir_idiomas(md)
+        for idioma, otro in (("es", "en"), ("en", "es")):
+            archivo, titulo, desc = doc[idioma]
+            otro_archivo = doc[otro][0]
+            if idioma == "es":
+                nav = (f'<p class="idiomas"><strong>Español</strong> · '
+                       f'<a href="{otro_archivo}">English</a></p>')
+            else:
+                nav = (f'<p class="idiomas"><a href="{otro_archivo}">Español</a> · '
+                       f'<strong>English</strong></p>')
+            cuerpo = a_html(es if idioma == "es" else en)
+            (RAIZ / "multiplo" / archivo).write_text(PLANTILLA.format(
+                lang=idioma, titulo=f"{titulo} · Múltiplo", desc=desc,
+                sub=titulo, idiomas=nav,
+                cuerpo=f"<h1>{titulo}</h1>\n" + cuerpo, pie=PIE),
+                encoding="utf-8")
+            print("  ", archivo)
 
     indice = """<h1>Múltiplo</h1>
-<div class="resumen"><p>Juego de calculo mental para iPhone y iPad. Tablas de
-multiplicar convertidas en un juego de reflejos.</p></div>
-<h2>Documentos</h2>
+<div class="resumen"><p>Juego de calculo mental para iPhone y iPad. Las tablas
+de multiplicar convertidas en un juego de reflejos.</p></div>
+<h2>Soporte</h2>
+<ul>
+<li><a href="multiplo/soporte.html">Ayuda y preguntas frecuentes</a> (espanol)</li>
+<li><a href="multiplo/support.html">Help and FAQ</a> (English)</li>
+</ul>
+<h2>Privacidad</h2>
 <ul>
 <li><a href="multiplo/privacidad.html">Politica de privacidad</a> (espanol)</li>
 <li><a href="multiplo/privacy.html">Privacy policy</a> (English)</li>
@@ -211,10 +233,10 @@ multiplicar convertidas en un juego de reflejos.</p></div>
 <p>Para cualquier duda: <a href="mailto:jlq.software@gmail.com">jlq.software@gmail.com</a></p>"""
     (RAIZ / "index.html").write_text(PLANTILLA.format(
         lang="es", titulo="Múltiplo · Documentación",
-        desc="Documentacion publica de Multiplo.",
+        desc="Soporte y politica de privacidad de Multiplo.",
         sub="Documentación", idiomas="", cuerpo=indice,
         pie="Jose Luis Querido Chica"), encoding="utf-8")
-    print("Generado: index.html, multiplo/privacidad.html, multiplo/privacy.html")
+    print("   index.html")
 
 
 if __name__ == "__main__":

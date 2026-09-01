@@ -8,13 +8,16 @@ Publicado con GitHub Pages: **https://jlqch.github.io/SOFTWARE_DOCS/**
 
 Juego de cálculo mental para iPhone y iPad.
 
-| Documento | URL pública |
-|---|---|
-| Política de privacidad (ES) | https://jlqch.github.io/SOFTWARE_DOCS/multiplo/privacidad.html |
-| Privacy policy (EN) | https://jlqch.github.io/SOFTWARE_DOCS/multiplo/privacy.html |
+| Documento | URL pública | Dónde se usa |
+|---|---|---|
+| Soporte (ES) | https://jlqch.github.io/SOFTWARE_DOCS/multiplo/soporte.html | **URL de soporte** de App Store Connect (obligatoria) |
+| Support (EN) | https://jlqch.github.io/SOFTWARE_DOCS/multiplo/support.html | — |
+| Política de privacidad (ES) | https://jlqch.github.io/SOFTWARE_DOCS/multiplo/privacidad.html | **URL de política de privacidad** de App Store Connect (obligatoria) y **AdMob** |
+| Privacy policy (EN) | https://jlqch.github.io/SOFTWARE_DOCS/multiplo/privacy.html | — |
 
-La primera es la que hay que pegar en **App Store Connect → Información de la
-app → Política de privacidad** y en la configuración de **Google AdMob**.
+Son **dos campos distintos** en App Store Connect y los dos son obligatorios.
+La de soporte tiene que ofrecer ayuda de verdad (contacto y preguntas
+frecuentes): poner ahí la política de privacidad es motivo de rechazo.
 
 ## Cómo se edita
 
@@ -38,8 +41,20 @@ git add -A && git commit -m "Actualiza la política de privacidad" && git push
 > `Multiplo/Views/SettingsView.swift` del repositorio MULTIPLO). Si se cambia
 > uno, hay que cambiar el otro, y actualizar la fecha en los dos sitios.
 
-## Activar GitHub Pages (una sola vez)
+## Publicar el sitio (una sola vez)
 
-En este repositorio: **Settings → Pages → Source: Deploy from a branch →
-Branch: `main` / `(root)` → Save**. En un par de minutos las URLs de arriba
-responden.
+Hay que hacer **dos cosas**, y la primera se olvida siempre:
+
+1. **Hacer el repositorio público.** Settings → General → abajo del todo,
+   Danger Zone → *Change repository visibility* → Public.
+
+   > GitHub Pages **no funciona en repositorios privados** salvo con un plan
+   > de pago. Con el repositorio privado, la URL da error aunque Pages esté
+   > activado. Aquí no hay nada secreto: una política de privacidad y una
+   > página de ayuda están hechas para ser públicas.
+
+2. **Activar Pages.** Settings → Pages → Source: *Deploy from a branch* →
+   Branch: `main` / `(root)` → Save.
+
+En un par de minutos las URLs de arriba responden. Compruébalas antes de
+pegarlas en App Store Connect.

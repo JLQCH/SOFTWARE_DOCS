@@ -3,7 +3,7 @@
 
 ## Versión en español
 
-**Última actualización: 1 de septiembre de 2026**
+**Última actualización: 18 de septiembre de 2026**
 
 Múltiplo es un juego de cálculo mental desarrollado por Jose Luis Querido
 Chica. Esta política explica qué datos maneja la app y qué se hace con ellos.
@@ -51,28 +51,36 @@ identificador.
 
 ### 5. Publicidad
 
-**La versión actual de Múltiplo no muestra ningún anuncio** y no incorpora
-ningún SDK de publicidad.
+La versión gratuita de Múltiplo muestra anuncios de **Google AdMob** a
+partir de la versión 1.1 (la 1.0 no lleva ninguno). Solo
+aparecen **entre partidas**, en la pantalla de resultados, y nunca durante un
+nivel. Además, puedes ver voluntariamente un anuncio a cambio de monedas o de
+una ayuda; nadie te obliga.
 
-Está previsto que una versión futura incluya anuncios de **Google AdMob** en
-la modalidad gratuita. Cuando eso ocurra:
+La app está marcada ante Google como **dirigida a menores**. Eso significa:
 
-- La app te preguntará **antes de cargar ningún anuncio** si aceptas anuncios
-  **personalizados** o prefieres solo anuncios **no personalizados**, y podrás
-  cambiar esa elección cuando quieras en Ajustes.
-- Para servirlos, Google podría tratar identificadores de tu dispositivo y
-  datos sobre tu interacción con los anuncios, conforme a su propia política
-  de privacidad: https://policies.google.com/privacy
-- Habrá una compra dentro de la app que **elimina la publicidad de forma
-  permanente**.
-- Esta política y las etiquetas de privacidad de la App Store se actualizarán
-  en esa misma versión.
+- Los anuncios son **siempre no personalizados** y con contenido apto para
+  todos los públicos. No hay anuncios personalizados que aceptar ni rechazar.
+- **No se pide el permiso de seguimiento** de Apple (App Tracking
+  Transparency) y no se usa el identificador de publicidad del dispositivo.
+- Para servir y medir los anuncios, Google trata datos técnicos del
+  dispositivo (modelo, versión del sistema, dirección IP, identificadores
+  propios del SDK) y la interacción con el anuncio (impresiones, toques),
+  con fines de limitación de frecuencia, atribución y prevención de fraude,
+  conforme a su política de privacidad: https://policies.google.com/privacy
+- En las regiones donde la ley lo exige, el aviso de privacidad de Google
+  aparece antes del primer anuncio, y sus opciones se pueden revisar en
+  Ajustes → Anuncios.
+
+La compra «Sin anuncios» los **elimina de forma permanente**.
 
 ### 6. Compras
 
-La versión actual no ofrece compras dentro de la app. Si en el futuro las
-hubiera, las gestionaría Apple mediante App Store: no recibimos ni
-almacenamos tus datos de pago en ningún momento.
+La compra **«Sin anuncios»** es un pago único que gestiona Apple a través de
+la App Store: no recibimos ni almacenamos tus datos de pago en ningún
+momento. Se puede restaurar en cualquier dispositivo con la misma cuenta
+desde Ajustes → Anuncios → Restaurar compras. No desbloquea contenido: el
+juego completo es gratis.
 
 ### 7. Lo que NO hacemos
 
@@ -81,6 +89,7 @@ almacenamos tus datos de pago en ningún momento.
 - No creamos perfiles publicitarios con tu progreso de juego.
 - No pedimos ni almacenamos tu correo, tu teléfono ni tu ubicación.
 - No tenemos cuentas de usuario ni contraseñas.
+- No personalizamos los anuncios con tus datos.
 
 ### 8. Menores
 
@@ -99,9 +108,10 @@ ejercer tus derechos directamente:
 - **Acceso y rectificación**: todo lo guardado se ve y se edita en la app.
 - **Supresión**: borra el perfil desde Ajustes, o desinstala la app para
   eliminarlo todo.
-- **Oposición a la publicidad personalizada**: hoy no hay anuncios que
-  rechazar. Cuando los haya, podrás cambiar tu elección en Ajustes o comprar
-  la app para eliminarlos.
+- **Publicidad**: no hay anuncios personalizados a los que oponerse. Para
+  eliminar toda la publicidad está la compra «Sin anuncios». Para lo que
+  trata Google al servir un anuncio, su política de privacidad indica cómo
+  ejercer tus derechos ante Google.
 
 ### 10. Cambios en esta política
 
@@ -117,7 +127,7 @@ Para cualquier duda sobre privacidad: **jlq.software@gmail.com**
 
 ## English version
 
-**Last updated: 1 de septiembre de 2026**
+**Last updated: 18 September 2026**
 
 Múltiplo is a mental-arithmetic game developed by Jose Luis Querido Chica.
 This policy explains what data the app handles and what happens to it. The
@@ -163,27 +173,33 @@ There is no notification server and no identifier is registered.
 
 ### 5. Advertising
 
-**The current version of Múltiplo shows no ads at all** and bundles no
-advertising SDK.
+The free version of Múltiplo shows **Google AdMob** ads starting with
+version 1.1 (version 1.0 has none). They appear only
+**between games**, on the results screen, and never during a level. You can
+also choose to watch an ad in exchange for coins or a power-up; it is always
+voluntary.
 
-A future version is expected to include **Google AdMob** ads in the free
-tier. When that happens:
+The app is flagged to Google as **directed to children**. This means:
 
-- The app will ask you, **before loading any ad**, whether you accept
-  **personalized** ads or prefer **non-personalized** ads only, and you will
-  be able to change that choice at any time in Settings.
-- To serve them, Google may process your device identifiers and data about
-  your interaction with the ads, under its own privacy policy:
-  https://policies.google.com/privacy
-- An in-app purchase will **remove advertising permanently**.
-- This policy and the App Store privacy labels will be updated in that same
-  version.
+- Ads are **always non-personalized** and rated for all audiences. There are
+  no personalized ads to accept or refuse.
+- Apple's **tracking permission is never requested** (App Tracking
+  Transparency) and the device's advertising identifier is not used.
+- To serve and measure ads, Google processes technical device data (model,
+  OS version, IP address, the SDK's own identifiers) and interaction with the
+  ad (impressions, taps), for frequency capping, attribution and fraud
+  prevention, under its privacy policy: https://policies.google.com/privacy
+- Where the law requires it, Google's privacy notice appears before the first
+  ad, and its options can be reviewed in Settings → Ads.
+
+The "No ads" purchase **removes them permanently**.
 
 ### 6. Purchases
 
-The current version offers no in-app purchases. Should there be any in the
-future, they would be handled by Apple through the App Store: we never
-receive or store your payment details.
+The **"No ads"** purchase is a one-time payment handled by Apple through the
+App Store: we never receive or store your payment details. It can be restored
+on any device with the same account from Settings → Ads → Restore purchases.
+It unlocks no content: the full game is free.
 
 ### 7. What we do NOT do
 
@@ -192,6 +208,7 @@ receive or store your payment details.
 - We do not build advertising profiles from your game progress.
 - We do not ask for or store your email, phone number or location.
 - There are no user accounts and no passwords.
+- We do not personalize ads with your data.
 
 ### 8. Children
 
@@ -210,9 +227,9 @@ exercise your rights directly:
   the app.
 - **Erasure**: delete the profile from Settings, or uninstall the app to
   remove everything.
-- **Objection to personalized advertising**: there are no ads to object to
-  today. When there are, you will be able to change your choice in Settings
-  or buy the app to remove them.
+- **Advertising**: there are no personalized ads to object to. The "No ads"
+  purchase removes all advertising. For what Google processes when serving
+  an ad, its privacy policy explains how to exercise your rights with Google.
 
 ### 10. Changes to this policy
 

@@ -28,12 +28,21 @@ seguros se ganan al completar siete días seguidos, y se pueden acumular
 hasta dos.
 
 ### ¿Cómo quito los anuncios?
-Comprando la app. La compra elimina la publicidad de forma permanente. Si
-cambias de dispositivo, usa «Restaurar compras» con el mismo Apple ID.
+Con la compra «Sin anuncios»: un pago único que elimina la publicidad para
+siempre. Está en el botón «Sin anuncios» de la pantalla de inicio y en
+Ajustes → Anuncios. El juego completo sigue siendo gratis; la compra no
+desbloquea nada más. Si cambias de dispositivo, usa «Restaurar compras» con
+el mismo Apple ID.
 
-### He comprado la app y sigo viendo anuncios.
+### ¿Los anuncios son aptos para niños?
+Sí. La app está marcada como dirigida a menores: los anuncios son siempre no
+personalizados y con contenido apto para todos los públicos, y solo aparecen
+entre partidas, nunca durante un nivel. Los anuncios con recompensa (monedas
+o una ayuda) son voluntarios: solo se ven si se pulsa el botón.
+
+### He comprado «Sin anuncios» y sigo viendo anuncios.
 Comprueba que estás con el mismo Apple ID con el que compraste y usa
-«Restaurar compras». Si aun así siguen, escríbeme.
+«Restaurar compras» en Ajustes → Anuncios. Si aun así siguen, escríbeme.
 
 ### ¿Cómo cambio el idioma?
 En Ajustes → Idioma puedes elegir español, inglés o seguir el idioma del
@@ -54,8 +63,9 @@ clasificaciones de Game Center y, en la versión gratuita, para los anuncios.
 
 ### ¿Es apta para niños?
 Sí, está clasificada 4+ y no recoge datos personales. La versión gratuita
-muestra anuncios; comprando la app desaparecen. Puedes revisar qué datos se
-tratan en la política de privacidad.
+muestra anuncios no personalizados y aptos para menores; la compra «Sin
+anuncios» los elimina. Puedes revisar qué datos se tratan en la política de
+privacidad.
 
 ---
 
@@ -86,12 +96,20 @@ nothing. Shields are earned by completing seven days in a row, and you can
 hold up to two.
 
 ### How do I remove the ads?
-By buying the app. The purchase removes advertising permanently. If you
-change device, use "Restore purchases" with the same Apple ID.
+With the "No ads" purchase: a one-time payment that removes advertising for
+good. You will find it under the "No ads" button on the home screen and in
+Settings → Ads. The full game stays free; the purchase unlocks nothing else.
+If you change device, use "Restore purchases" with the same Apple ID.
 
-### I bought the app and still see ads.
+### Are the ads suitable for children?
+Yes. The app is flagged as directed to children: ads are always
+non-personalized and rated for all audiences, and they only appear between
+games, never during a level. Rewarded ads (coins or a power-up) are
+voluntary: you only see them if you tap the button.
+
+### I bought "No ads" and still see ads.
 Check that you are signed in with the Apple ID you bought it with and use
-"Restore purchases". If they persist, write to me.
+"Restore purchases" under Settings → Ads. If they persist, write to me.
 
 ### How do I change the language?
 Settings → Language lets you pick Spanish, English or follow the system
@@ -112,5 +130,5 @@ leaderboards and, in the free version, for ads.
 
 ### Is it suitable for children?
 Yes, it is rated 4+ and collects no personal data. The free version shows
-ads; buying the app removes them. You can review what data is processed in
-the privacy policy.
+non-personalized, child-appropriate ads; the "No ads" purchase removes them.
+You can review what data is processed in the privacy policy.

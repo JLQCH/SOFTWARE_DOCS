@@ -4,6 +4,9 @@
 Sin dependencias: un conversor Markdown minimo, suficiente para documentos
 legales (encabezados, parrafos, listas, negrita, enlaces y tablas).
 
+Cada app tiene su carpeta (multiplo/, splop/) con privacidad.md y soporte.md;
+la lista de apps esta en APPS.
+
 Uso:  python3 build.py
 """
 import html
@@ -43,7 +46,7 @@ PLANTILLA = """<!doctype html>
   }}
   .logo {{
     width: 42px; height: 42px; border-radius: 11px; flex: none;
-    background: linear-gradient(135deg, #6C5CE7, #A29BFE);
+    background: {logo_bg};
     color: #fff; font-weight: 800; font-size: 21px;
     display: grid; place-items: center;
   }}
@@ -82,8 +85,8 @@ PLANTILLA = """<!doctype html>
 <body>
 <div class="envoltura">
 <header class="marca">
-  <div class="logo">M</div>
-  <div><b>Múltiplo</b><span>{sub}</span></div>
+  <div class="logo">{logo}</div>
+  <div><b>{app}</b><span>{sub}</span></div>
 </header>
 {idiomas}
 {cuerpo}
@@ -173,70 +176,108 @@ def partir_idiomas(md):
     return subir(es), subir(en)
 
 
-PIE = ("Múltiplo · Jose Luis Querido Chica · "
-       '<a href="mailto:jlq.software@gmail.com">jlq.software@gmail.com</a>')
+CONTACTO = '<a href="mailto:jlq.software@gmail.com">jlq.software@gmail.com</a>'
 
-# Cada documento: fuente, las dos paginas que produce y sus titulos.
-DOCUMENTOS = [
+# Cada app: carpeta, nombre, logotipo y, por documento, la fuente, las dos
+# paginas que produce y sus titulos.
+APPS = [
     {
-        "fuente": "privacidad.md",
-        "es": ("privacidad.html", "Política de privacidad",
-               "Política de privacidad de Múltiplo. Tus datos de juego no salen del dispositivo."),
-        "en": ("privacy.html", "Privacy Policy",
-               "Privacy policy for Multiplo. Your game data never leaves your device."),
+        "carpeta": "multiplo",
+        "nombre": "Múltiplo",
+        "logo": "M",
+        "logo_bg": "linear-gradient(135deg, #6C5CE7, #A29BFE)",
+        "resumen": ("Juego de calculo mental para iPhone y iPad. Las tablas\n"
+                    "de multiplicar convertidas en un juego de reflejos."),
+        "documentos": [
+            {
+                "fuente": "privacidad.md",
+                "es": ("privacidad.html", "Política de privacidad",
+                       "Política de privacidad de Múltiplo. Tus datos de juego no salen del dispositivo."),
+                "en": ("privacy.html", "Privacy Policy",
+                       "Privacy policy for Multiplo. Your game data never leaves your device."),
+            },
+            {
+                "fuente": "soporte.md",
+                "es": ("soporte.html", "Soporte",
+                       "Ayuda y preguntas frecuentes de Múltiplo."),
+                "en": ("support.html", "Support",
+                       "Help and frequently asked questions for Multiplo."),
+            },
+        ],
     },
     {
-        "fuente": "soporte.md",
-        "es": ("soporte.html", "Soporte",
-               "Ayuda y preguntas frecuentes de Múltiplo."),
-        "en": ("support.html", "Support",
-               "Help and frequently asked questions for Multiplo."),
+        "carpeta": "splop",
+        "nombre": "SPLOP!",
+        "logo": "S",
+        "logo_bg": "linear-gradient(135deg, #E8504A, #FFB547)",
+        "resumen": ("Juego de puzle con fisica para iPhone y iPad. Parte las\n"
+                    "piezas, junta tres iguales y que la pila no cruce la linea."),
+        "documentos": [
+            {
+                "fuente": "privacidad.md",
+                "es": ("privacidad.html", "Política de privacidad",
+                       "Política de privacidad de SPLOP!. Tus datos de juego no salen del dispositivo."),
+                "en": ("privacy.html", "Privacy Policy",
+                       "Privacy policy for SPLOP!. Your game data never leaves your device."),
+            },
+            {
+                "fuente": "soporte.md",
+                "es": ("soporte.html", "Soporte",
+                       "Ayuda y preguntas frecuentes de SPLOP!."),
+                "en": ("support.html", "Support",
+                       "Help and frequently asked questions for SPLOP!."),
+            },
+        ],
     },
 ]
 
 
 def main():
-    for doc in DOCUMENTOS:
-        md = (RAIZ / "multiplo" / doc["fuente"]).read_text(encoding="utf-8")
-        es, en = partir_idiomas(md)
-        for idioma, otro in (("es", "en"), ("en", "es")):
-            archivo, titulo, desc = doc[idioma]
-            otro_archivo = doc[otro][0]
-            if idioma == "es":
-                nav = (f'<p class="idiomas"><strong>Español</strong> · '
-                       f'<a href="{otro_archivo}">English</a></p>')
-            else:
-                nav = (f'<p class="idiomas"><a href="{otro_archivo}">Español</a> · '
-                       f'<strong>English</strong></p>')
-            cuerpo = a_html(es if idioma == "es" else en)
-            (RAIZ / "multiplo" / archivo).write_text(PLANTILLA.format(
-                lang=idioma, titulo=f"{titulo} · Múltiplo", desc=desc,
-                sub=titulo, idiomas=nav,
-                cuerpo=f"<h1>{titulo}</h1>\n" + cuerpo, pie=PIE),
-                encoding="utf-8")
-            print("  ", archivo)
+    for app in APPS:
+        pie = f"{app['nombre']} · Jose Luis Querido Chica · {CONTACTO}"
+        print(app["carpeta"])
+        for doc in app["documentos"]:
+            md = (RAIZ / app["carpeta"] / doc["fuente"]).read_text(encoding="utf-8")
+            es, en = partir_idiomas(md)
+            for idioma, otro in (("es", "en"), ("en", "es")):
+                archivo, titulo, desc = doc[idioma]
+                otro_archivo = doc[otro][0]
+                if idioma == "es":
+                    nav = (f'<p class="idiomas"><strong>Español</strong> · '
+                           f'<a href="{otro_archivo}">English</a></p>')
+                else:
+                    nav = (f'<p class="idiomas"><a href="{otro_archivo}">Español</a> · '
+                           f'<strong>English</strong></p>')
+                cuerpo = a_html(es if idioma == "es" else en)
+                (RAIZ / app["carpeta"] / archivo).write_text(PLANTILLA.format(
+                    lang=idioma, titulo=f"{titulo} · {app['nombre']}", desc=desc,
+                    logo=app["logo"], logo_bg=app["logo_bg"], app=app["nombre"],
+                    sub=titulo, idiomas=nav,
+                    cuerpo=f"<h1>{titulo}</h1>\n" + cuerpo, pie=pie),
+                    encoding="utf-8")
+                print("  ", archivo)
 
-    indice = """<h1>Múltiplo</h1>
-<div class="resumen"><p>Juego de calculo mental para iPhone y iPad. Las tablas
-de multiplicar convertidas en un juego de reflejos.</p></div>
-<h2>Soporte</h2>
+    # Portada: una seccion por app con sus cuatro paginas.
+    partes = ["<h1>Documentación</h1>",
+              '<div class="resumen"><p>Soporte y política de privacidad de las apps de\n'
+              "Jose Luis Querido Chica.</p></div>"]
+    for app in APPS:
+        c = app["carpeta"]
+        partes.append(f"""<h2>{app['nombre']}</h2>
+<p>{app['resumen']}</p>
 <ul>
-<li><a href="multiplo/soporte.html">Ayuda y preguntas frecuentes</a> (espanol)</li>
-<li><a href="multiplo/support.html">Help and FAQ</a> (English)</li>
-</ul>
-<h2>Privacidad</h2>
-<ul>
-<li><a href="multiplo/privacidad.html">Politica de privacidad</a> (espanol)</li>
-<li><a href="multiplo/privacy.html">Privacy policy</a> (English)</li>
-</ul>
-<h2>Contacto</h2>
-<p>Para cualquier duda: <a href="mailto:jlq.software@gmail.com">jlq.software@gmail.com</a></p>"""
+<li><a href="{c}/soporte.html">Ayuda y preguntas frecuentes</a> (espanol) · <a href="{c}/support.html">Help and FAQ</a> (English)</li>
+<li><a href="{c}/privacidad.html">Politica de privacidad</a> (espanol) · <a href="{c}/privacy.html">Privacy policy</a> (English)</li>
+</ul>""")
+    partes.append("""<h2>Contacto</h2>
+<p>Para cualquier duda: <a href="mailto:jlq.software@gmail.com">jlq.software@gmail.com</a></p>""")
     (RAIZ / "index.html").write_text(PLANTILLA.format(
-        lang="es", titulo="Múltiplo · Documentación",
-        desc="Soporte y politica de privacidad de Multiplo.",
-        sub="Documentación", idiomas="", cuerpo=indice,
-        pie="Jose Luis Querido Chica"), encoding="utf-8")
-    print("   index.html")
+        lang="es", titulo="Documentación · Jose Luis Querido Chica",
+        desc="Soporte y politica de privacidad de Multiplo y SPLOP!.",
+        logo="J", logo_bg="linear-gradient(135deg, #6C5CE7, #A29BFE)",
+        app="Jose Luis Querido Chica", sub="Documentación", idiomas="",
+        cuerpo="\n".join(partes), pie="Jose Luis Querido Chica"), encoding="utf-8")
+    print("index.html")
 
 
 if __name__ == "__main__":

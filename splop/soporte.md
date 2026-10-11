@@ -1,6 +1,6 @@
 # SPLOP! — Soporte
 
-**Última actualización: 10 de octubre de 2026**
+**Última actualización: 11 de octubre de 2026**
 
 ## Versión en español
 
@@ -49,29 +49,45 @@ Del 1 de octubre al 7 de noviembre, con el mundo en «Aleatorio en cada
 partida», el juego se
 viste de Halloween. Para jugar en otro mundo, elígelo en Ajustes → Mundo.
 
+### ¿Cómo veo las clasificaciones?
+En el menú, **Récords** abre las clasificaciones de Game Center: el récord de
+cada modo, el de la semana y la dificultad más alta de SPLOP! Clásico. Al
+terminar una partida, **Ver clasificación** abre la del modo que acabas de
+jugar.
+
+### No aparezco en las clasificaciones.
+Hace falta tener la sesión iniciada en Game Center (Ajustes del dispositivo →
+Game Center) y conexión. Al abrir el juego con la sesión iniciada, se envían
+también los récords que ya tenías guardados. Las clasificaciones semanales
+empiezan de cero cada semana.
+
 ### ¿Se guarda mi progreso si borro la app?
 No. Récords, dificultades y ajustes viven únicamente en tu dispositivo, y
 desinstalar la app los borra por completo. No hay copia en la nube ni cuenta
-de usuario.
+de usuario. Lo que ya hayas enviado a Game Center sigue en sus
+clasificaciones.
 
 ### ¿Cómo cambio el idioma?
 En Ajustes → Idioma puedes elegir español o inglés. El cambio es inmediato.
 
 ### ¿La app necesita internet?
-No. Se juega entera sin conexión.
+No. Se juega entera sin conexión. Solo las clasificaciones de Game Center la
+necesitan: los récords que hagas sin conexión llegan a las clasificaciones la
+próxima vez que abras el juego con conexión.
 
 ### No oigo la música o los efectos.
 Comprueba en Ajustes → Sonido que la música y los efectos están activados y
 con volumen. El juego suena aunque el iPhone esté en modo silencio.
 
 ### ¿Es apta para niños?
-Sí. No recoge datos personales y no tiene anuncios ni compras.
+Sí. No recoge datos personales y no tiene anuncios ni compras. Las
+clasificaciones son de Game Center, de Apple, y son opcionales.
 
 ---
 
 ## English version
 
-**Last updated: 10 October 2026**
+**Last updated: 11 October 2026**
 
 Something not working, or a question? Write to **jlq.software@gmail.com** and
 I will get back to you. For a bug, it helps a lot to know your iPhone or iPad
@@ -118,21 +134,37 @@ From 1 October to 7 November, with the world set to "Random every game", the
 game wears
 its Halloween theme. To play in another world, pick it in Settings → World.
 
+### How do I see the leaderboards?
+In the menu, **Rankings** opens the Game Center leaderboards: the best score
+in each mode, this week's best and the highest difficulty in SPLOP! Classic.
+At the end of a game, **See ranking** opens the one for the mode you just
+played.
+
+### I don't show up on the leaderboards.
+You need to be signed in to Game Center (device Settings → Game Center) and
+online. When the game opens with Game Center signed in, it also sends the
+best scores already saved on your device. Weekly leaderboards start from zero
+every week.
+
 ### Is my progress kept if I delete the app?
 No. Best scores, difficulties and settings live only on your device, and
 uninstalling the app deletes them completely. There is no cloud backup and
-no user account.
+no user account. Whatever you already sent to Game Center stays on its
+leaderboards.
 
 ### How do I change the language?
 Settings → Language lets you pick Spanish or English. The change is
 immediate.
 
 ### Does the app need an internet connection?
-No. The whole game works offline.
+No. The whole game works offline. Only the Game Center leaderboards need a
+connection: best scores you make offline reach the leaderboards the next time
+you open the game online.
 
 ### I cannot hear the music or the sound effects.
 Check in Settings → Sound that music and effects are on and their volume is
 up. The game plays even when the iPhone is in silent mode.
 
 ### Is it suitable for children?
-Yes. It collects no personal data and has no ads or purchases.
+Yes. It collects no personal data and has no ads or purchases. The
+leaderboards belong to Apple's Game Center and are optional.

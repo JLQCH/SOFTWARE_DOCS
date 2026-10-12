@@ -19,12 +19,27 @@ Son **dos campos distintos** en App Store Connect y los dos son obligatorios.
 La de soporte tiene que ofrecer ayuda de verdad (contacto y preguntas
 frecuentes): poner ahí la política de privacidad es motivo de rechazo.
 
+## SPLOP!
+
+Juego de puzle con física para iPhone y iPad.
+
+| Documento | URL pública | Dónde se usa |
+|---|---|---|
+| Soporte (ES) | https://jlqch.github.io/SOFTWARE_DOCS/splop/soporte.html | **URL de soporte** de App Store Connect (obligatoria) |
+| Support (EN) | https://jlqch.github.io/SOFTWARE_DOCS/splop/support.html | — |
+| Política de privacidad (ES) | https://jlqch.github.io/SOFTWARE_DOCS/splop/privacidad.html | **URL de política de privacidad** de App Store Connect (obligatoria) |
+| Privacy policy (EN) | https://jlqch.github.io/SOFTWARE_DOCS/splop/privacy.html | — |
+
+La 1.0 no tiene anuncios ni compras: cuando lleguen, hay que actualizar
+`splop/privacidad.md` **antes** de enviar esa versión (ver `appstore/APPSTORE.md`
+del repositorio SPLIT).
+
 ## Cómo se edita
 
 La fuente es Markdown; el HTML se genera y **no se edita a mano**:
 
 ```bash
-# 1. Cambiar el texto
+# 1. Cambiar el texto (multiplo/ o splop/)
 vi multiplo/privacidad.md
 
 # 2. Regenerar las páginas

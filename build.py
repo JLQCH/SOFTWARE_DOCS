@@ -186,7 +186,7 @@ APPS = [
         "nombre": "Múltiplo",
         "logo": "M",
         "logo_bg": "linear-gradient(135deg, #6C5CE7, #A29BFE)",
-        "resumen": ("Juego de calculo mental para iPhone y iPad. Las tablas\n"
+        "resumen": ("Juego de cálculo mental para iPhone y iPad. Las tablas\n"
                     "de multiplicar convertidas en un juego de reflejos."),
         "documentos": [
             {
@@ -210,8 +210,8 @@ APPS = [
         "nombre": "SPLOP!",
         "logo": "S",
         "logo_bg": "linear-gradient(135deg, #E8504A, #FFB547)",
-        "resumen": ("Juego de puzle con fisica para iPhone y iPad. Parte las\n"
-                    "piezas, junta tres iguales y que la pila no cruce la linea."),
+        "resumen": ("Juego de puzle con física para iPhone y iPad. Parte las\n"
+                    "piezas, junta tres iguales y que la pila no cruce la línea."),
         "documentos": [
             {
                 "fuente": "privacidad.md",
@@ -266,14 +266,14 @@ def main():
         partes.append(f"""<h2>{app['nombre']}</h2>
 <p>{app['resumen']}</p>
 <ul>
-<li><a href="{c}/soporte.html">Ayuda y preguntas frecuentes</a> (espanol) · <a href="{c}/support.html">Help and FAQ</a> (English)</li>
-<li><a href="{c}/privacidad.html">Politica de privacidad</a> (espanol) · <a href="{c}/privacy.html">Privacy policy</a> (English)</li>
+<li><a href="{c}/soporte.html">Ayuda y preguntas frecuentes</a> (español) · <a href="{c}/support.html">Help and FAQ</a> (English)</li>
+<li><a href="{c}/privacidad.html">Política de privacidad</a> (español) · <a href="{c}/privacy.html">Privacy policy</a> (English)</li>
 </ul>""")
     partes.append("""<h2>Contacto</h2>
 <p>Para cualquier duda: <a href="mailto:jlq.software@gmail.com">jlq.software@gmail.com</a></p>""")
     (RAIZ / "index.html").write_text(PLANTILLA.format(
         lang="es", titulo="Documentación · Jose Luis Querido Chica",
-        desc="Soporte y politica de privacidad de Multiplo y SPLOP!.",
+        desc="Soporte y política de privacidad de Múltiplo y SPLOP!.",
         logo="J", logo_bg="linear-gradient(135deg, #6C5CE7, #A29BFE)",
         app="Jose Luis Querido Chica", sub="Documentación", idiomas="",
         cuerpo="\n".join(partes), pie="Jose Luis Querido Chica"), encoding="utf-8")

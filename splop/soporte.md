@@ -1,6 +1,6 @@
 # SPLOP! — Soporte
 
-**Última actualización: 11 de octubre de 2026**
+**Última actualización: 14 de octubre de 2026**
 
 ## Versión en español
 
@@ -70,24 +70,50 @@ clasificaciones.
 ### ¿Cómo cambio el idioma?
 En Ajustes → Idioma puedes elegir español o inglés. El cambio es inmediato.
 
+### ¿Cuándo salen anuncios?
+Desde la versión 1.1, nunca mientras juegas. De vez en cuando sale uno al
+salir de la pantalla final («Otra partida» o «Menú principal»): ninguno en
+las primeras partidas y, después, como mucho uno de cada tres, con varios
+minutos entre dos. Tras una partida muy corta no sale ninguno.
+
+### ¿Qué es «Ver un anuncio y seguir»?
+La segunda oportunidad: al perder, puedes ver un anuncio y la partida sigue,
+sin las piezas que pasaban de la línea (en SPLOP! Rain, además, con unos
+segundos sin bolas nuevas). Una vez por partida, y solo si tú lo pides.
+
+### ¿Cómo quito los anuncios?
+Con la compra «Sin anuncios», en Ajustes → Anuncios: un pago único que quita
+para siempre los anuncios entre partidas. La segunda oportunidad sigue
+disponible, porque solo sale si la pides. El juego completo sigue siendo
+gratis; la compra no desbloquea nada más. Si cambias de dispositivo, usa
+«Restaurar compras» con el mismo Apple ID.
+
+### He comprado «Sin anuncios» y sigo viendo anuncios entre partidas.
+Comprueba que estás con el mismo Apple ID con el que compraste y usa
+«Restaurar compras» en Ajustes → Anuncios. Si aun así siguen, escríbeme.
+
 ### ¿La app necesita internet?
-No. Se juega entera sin conexión. Solo las clasificaciones de Game Center la
-necesitan: los récords que hagas sin conexión llegan a las clasificaciones la
-próxima vez que abras el juego con conexión.
+No. Se juega entera sin conexión. La conexión solo hace falta para las
+clasificaciones de Game Center (los récords que hagas sin conexión llegan la
+próxima vez que abras el juego con conexión) y para los anuncios: sin
+conexión no sale ninguno, ni la segunda oportunidad.
 
 ### No oigo la música o los efectos.
 Comprueba en Ajustes → Sonido que la música y los efectos están activados y
 con volumen. El juego suena aunque el iPhone esté en modo silencio.
 
 ### ¿Es apta para niños?
-Sí. No recoge datos personales y no tiene anuncios ni compras. Las
-clasificaciones son de Game Center, de Apple, y son opcionales.
+Sí. No recoge datos personales. La app está marcada como dirigida a menores:
+los anuncios son siempre no personalizados y con contenido apto para todos
+los públicos, y nunca salen durante la partida. La compra «Sin anuncios» la
+gestiona Apple, con sus controles parentales. Las clasificaciones son de Game
+Center, de Apple, y son opcionales.
 
 ---
 
 ## English version
 
-**Last updated: 11 October 2026**
+**Last updated: 14 October 2026**
 
 Something not working, or a question? Write to **jlq.software@gmail.com** and
 I will get back to you. For a bug, it helps a lot to know your iPhone or iPad
@@ -156,15 +182,41 @@ leaderboards.
 Settings → Language lets you pick Spanish or English. The change is
 immediate.
 
+### When do ads appear?
+From version 1.1, never while you play. Now and then one appears when you
+leave the game-over screen ("Play again" or "Main menu"): none in your first
+games and, after that, at most one every three games, with several minutes
+between two. None after a very short game.
+
+### What is "Watch an ad to continue"?
+Your second chance: when you lose, you can watch an ad and the game goes on
+without the pieces that were over the line (in SPLOP! Rain, also with a few
+seconds without new balls). Once per game, and only if you ask for it.
+
+### How do I remove the ads?
+With the "No ads" purchase in Settings → Ads: a one-time payment that
+permanently removes the ads between games. The second chance stays
+available, because it only plays if you ask for it. The full game stays
+free; the purchase unlocks nothing else. If you switch devices, use "Restore
+purchases" with the same Apple ID.
+
+### I bought "No ads" and still see ads between games.
+Check that you are signed in with the Apple ID you used to buy it and tap
+"Restore purchases" in Settings → Ads. If they still appear, write to me.
+
 ### Does the app need an internet connection?
-No. The whole game works offline. Only the Game Center leaderboards need a
-connection: best scores you make offline reach the leaderboards the next time
-you open the game online.
+No. The whole game works offline. A connection is only needed for the Game
+Center leaderboards (best scores you make offline reach them the next time
+you open the game online) and for ads: offline there are none, and no second
+chance either.
 
 ### I cannot hear the music or the sound effects.
 Check in Settings → Sound that music and effects are on and their volume is
 up. The game plays even when the iPhone is in silent mode.
 
 ### Is it suitable for children?
-Yes. It collects no personal data and has no ads or purchases. The
-leaderboards belong to Apple's Game Center and are optional.
+Yes. It collects no personal data. The app is flagged as directed to
+children: ads are always non-personalized and rated for all audiences, and
+they never appear during a game. The "No ads" purchase is handled by Apple,
+with its parental controls. The leaderboards belong to Apple's Game Center
+and are optional.

@@ -1,13 +1,13 @@
 # SPLOP! — Soporte
 
-**Última actualización: 14 de octubre de 2026**
+**Última actualización: 15 de octubre de 2026**
 
 ## Versión en español
 
 ¿Algo no funciona o tienes una duda? Escribe a **jlq.software@gmail.com** y
-te contesto. Si es un fallo, ayuda mucho saber el modelo de iPhone o iPad, la
-versión de iOS y la versión del juego (está al pie de Ajustes y al final de
-la Ayuda).
+te contesto. Si es un fallo, ayuda mucho saber el modelo del dispositivo
+(iPhone, iPad o móvil Android), la versión del sistema y la versión del juego
+(está al pie de Ajustes y al final de la Ayuda).
 
 ### ¿Cómo se juega?
 Dispara a una pieza y se parte en dos gemelas; tres iguales (mismo tamaño y
@@ -50,28 +50,31 @@ partida», el juego se
 viste de Halloween. Para jugar en otro mundo, elígelo en Ajustes → Mundo.
 
 ### ¿Cómo veo las clasificaciones?
-En el menú, **Récords** abre las clasificaciones de Game Center: el récord de
-cada modo, el de la semana y la dificultad más alta de SPLOP! Clásico. Al
+En el menú, **Récords** abre las clasificaciones: las de Game Center en iPhone
+y iPad, y las de Google Play Juegos en Android. Hay el récord de cada modo,
+también el de la semana, y la dificultad más alta de SPLOP! Clásico. Al
 terminar una partida, **Ver clasificación** abre la del modo que acabas de
 jugar.
 
 ### No aparezco en las clasificaciones.
-Hace falta tener la sesión iniciada en Game Center (Ajustes del dispositivo →
-Game Center) y conexión. Al abrir el juego con la sesión iniciada, se envían
-también los récords que ya tenías guardados. Las clasificaciones semanales
-empiezan de cero cada semana.
+Hace falta conexión y tener la sesión iniciada: en iPhone y iPad, en Game
+Center (Ajustes del dispositivo → Game Center); en Android, en Google Play
+Juegos (si no la tienes, el juego la ofrece al pulsar **Récords**). Al abrir
+el juego con la sesión iniciada, se envían también los récords que ya tenías
+guardados. Las clasificaciones semanales empiezan de cero cada semana.
 
 ### ¿Se guarda mi progreso si borro la app?
 No. Récords, dificultades y ajustes viven únicamente en tu dispositivo, y
 desinstalar la app los borra por completo. No hay copia en la nube ni cuenta
-de usuario. Lo que ya hayas enviado a Game Center sigue en sus
-clasificaciones.
+de usuario. Lo que ya hayas enviado a Game Center o a Google Play Juegos sigue
+en sus clasificaciones.
 
 ### ¿Cómo cambio el idioma?
 En Ajustes → Idioma puedes elegir español o inglés. El cambio es inmediato.
 
 ### ¿Cuándo salen anuncios?
-Desde la versión 1.1, nunca mientras juegas. De vez en cuando sale uno al
+Nunca mientras juegas (en iPhone y iPad, desde la versión 1.1; en Android,
+desde la primera). De vez en cuando sale uno al
 salir de la pantalla final («Otra partida» o «Menú principal»): ninguno en
 las primeras partidas y, después, como mucho uno de cada tres, con varios
 minutos entre dos. Tras una partida muy corta no sale ninguno.
@@ -86,39 +89,43 @@ Con la compra «Sin anuncios», en Ajustes → Anuncios: un pago único que quit
 para siempre los anuncios entre partidas. La segunda oportunidad sigue
 disponible, porque solo sale si la pides. El juego completo sigue siendo
 gratis; la compra no desbloquea nada más. Si cambias de dispositivo, usa
-«Restaurar compras» con el mismo Apple ID.
+«Restaurar compras» con la misma cuenta: el Apple ID en iPhone y iPad, la
+cuenta de Google en Android. Las compras no pasan de una plataforma a otra.
 
 ### He comprado «Sin anuncios» y sigo viendo anuncios entre partidas.
-Comprueba que estás con el mismo Apple ID con el que compraste y usa
-«Restaurar compras» en Ajustes → Anuncios. Si aun así siguen, escríbeme.
+Comprueba que estás con la misma cuenta con la que compraste (Apple ID o
+cuenta de Google) y usa «Restaurar compras» en Ajustes → Anuncios. Si aun así
+siguen, escríbeme.
 
 ### ¿La app necesita internet?
 No. Se juega entera sin conexión. La conexión solo hace falta para las
-clasificaciones de Game Center (los récords que hagas sin conexión llegan la
+clasificaciones (los récords que hagas sin conexión llegan la
 próxima vez que abras el juego con conexión) y para los anuncios: sin
 conexión no sale ninguno, ni la segunda oportunidad.
 
 ### No oigo la música o los efectos.
 Comprueba en Ajustes → Sonido que la música y los efectos están activados y
-con volumen. El juego suena aunque el iPhone esté en modo silencio.
+con volumen. En iPhone, el juego suena aunque esté en modo silencio; en
+Android, sigue el volumen multimedia.
 
 ### ¿Es apta para niños?
 Sí. No recoge datos personales. La app está marcada como dirigida a menores:
 los anuncios son siempre no personalizados y con contenido apto para todos
 los públicos, y nunca salen durante la partida. La compra «Sin anuncios» la
-gestiona Apple, con sus controles parentales. Las clasificaciones son de Game
-Center, de Apple, y son opcionales.
+gestiona Apple o Google Play, con sus controles parentales. Las
+clasificaciones son de Game Center (Apple) o de Google Play Juegos y son
+opcionales.
 
 ---
 
 ## English version
 
-**Last updated: 14 October 2026**
+**Last updated: 15 October 2026**
 
 Something not working, or a question? Write to **jlq.software@gmail.com** and
-I will get back to you. For a bug, it helps a lot to know your iPhone or iPad
-model, the iOS version and the game version (shown at the bottom of Settings
-and at the end of Help).
+I will get back to you. For a bug, it helps a lot to know your device model
+(iPhone, iPad or Android phone), the system version and the game version
+(shown at the bottom of Settings and at the end of Help).
 
 ### How do I play?
 Shoot a piece and it splits into two twins; three alike (same size and
@@ -161,29 +168,32 @@ game wears
 its Halloween theme. To play in another world, pick it in Settings → World.
 
 ### How do I see the leaderboards?
-In the menu, **Rankings** opens the Game Center leaderboards: the best score
-in each mode, this week's best and the highest difficulty in SPLOP! Classic.
+In the menu, **Rankings** opens the leaderboards: Game Center on iPhone and
+iPad, Google Play Games on Android. They show the best score in each mode,
+this week's best too, and the highest difficulty in SPLOP! Classic.
 At the end of a game, **See ranking** opens the one for the mode you just
 played.
 
 ### I don't show up on the leaderboards.
-You need to be signed in to Game Center (device Settings → Game Center) and
-online. When the game opens with Game Center signed in, it also sends the
-best scores already saved on your device. Weekly leaderboards start from zero
-every week.
+You need to be online and signed in: on iPhone and iPad, to Game Center
+(device Settings → Game Center); on Android, to Google Play Games (if you are
+not, the game offers it when you tap **Rankings**). When the game opens
+signed in, it also sends the best scores already saved on your device.
+Weekly leaderboards start from zero every week.
 
 ### Is my progress kept if I delete the app?
 No. Best scores, difficulties and settings live only on your device, and
 uninstalling the app deletes them completely. There is no cloud backup and
-no user account. Whatever you already sent to Game Center stays on its
-leaderboards.
+no user account. Whatever you already sent to Game Center or Google Play
+Games stays on their leaderboards.
 
 ### How do I change the language?
 Settings → Language lets you pick Spanish or English. The change is
 immediate.
 
 ### When do ads appear?
-From version 1.1, never while you play. Now and then one appears when you
+Never while you play (on iPhone and iPad from version 1.1; on Android from
+the first version). Now and then one appears when you
 leave the game-over screen ("Play again" or "Main menu"): none in your first
 games and, after that, at most one every three games, with several minutes
 between two. None after a very short game.
@@ -198,25 +208,28 @@ With the "No ads" purchase in Settings → Ads: a one-time payment that
 permanently removes the ads between games. The second chance stays
 available, because it only plays if you ask for it. The full game stays
 free; the purchase unlocks nothing else. If you switch devices, use "Restore
-purchases" with the same Apple ID.
+purchases" with the same account: your Apple ID on iPhone and iPad, your
+Google account on Android. Purchases do not carry over between platforms.
 
 ### I bought "No ads" and still see ads between games.
-Check that you are signed in with the Apple ID you used to buy it and tap
-"Restore purchases" in Settings → Ads. If they still appear, write to me.
+Check that you are signed in with the account you used to buy it (Apple ID
+or Google account) and tap "Restore purchases" in Settings → Ads. If they
+still appear, write to me.
 
 ### Does the app need an internet connection?
-No. The whole game works offline. A connection is only needed for the Game
-Center leaderboards (best scores you make offline reach them the next time
+No. The whole game works offline. A connection is only needed for the
+leaderboards (best scores you make offline reach them the next time
 you open the game online) and for ads: offline there are none, and no second
 chance either.
 
 ### I cannot hear the music or the sound effects.
 Check in Settings → Sound that music and effects are on and their volume is
-up. The game plays even when the iPhone is in silent mode.
+up. On iPhone the game plays even in silent mode; on Android it follows the
+media volume.
 
 ### Is it suitable for children?
 Yes. It collects no personal data. The app is flagged as directed to
 children: ads are always non-personalized and rated for all audiences, and
-they never appear during a game. The "No ads" purchase is handled by Apple,
-with its parental controls. The leaderboards belong to Apple's Game Center
-and are optional.
+they never appear during a game. The "No ads" purchase is handled by Apple
+or Google Play, with their parental controls. The leaderboards belong to
+Apple's Game Center or Google Play Games and are optional.
